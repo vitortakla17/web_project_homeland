@@ -6,17 +6,18 @@
 }
 
 .header__logo {
-  width: 254px;
-  height: 70px;
-  margin-top: 34px;
+  max-width: 254px;
+  max-height: 70px;
+  margin: 5% auto 0;
 }
 
 .header__container {
-  min-width: 984px;
-  min-height: 983px;
+  max-width: 984px;
+  max-height: 983px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header__title {
@@ -24,9 +25,9 @@
   font-size: 96px;
   line-height: 1;
   text-align: center;
-  margin: 0 auto;
-  width: 720px;
-  height: 200px;
+  margin: 0 auto 5%;
+  max-width: 720px;
+  min-height: 200px;
 }
 
 .header__subtitle {
@@ -34,12 +35,12 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-  margin: 0 auto;
-  width: 720px;
-  height: 72px;
+  margin: 0 auto 5%;
+  max-width: 720px;
+  min-height: 72px;
 }
 
 .header__image {
   width: 100%;
-  min-height: 615px;
+  max-height: 615px;
 }
