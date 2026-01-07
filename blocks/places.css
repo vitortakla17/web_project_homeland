@@ -1,22 +1,35 @@
 .places {
   max-width: 984px;
-  height: 3338px;
+  /* height: 3338px; */
   display: grid;
-  grid-template-rows: repeat(8, 832px);
+  grid-template-rows: repeat(8, auto);
   grid-template-columns: 984px;
+  row-gap: 80px;
 }
 
-.places__location {}
+.places__location {
+  width: 100%;
+  height: 832px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 60px;
+}
+
+.places__location-left {
+}
 
 .places__location-title {
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+  width: 460px;
+  height: 228px;
 }
 
 .places__location-image {
   width: 460px;
   height: 460px;
+  grid-area: image;
 }
 
 .places__location-button {
@@ -37,11 +50,16 @@
   padding-bottom: 13px;
   padding-left: 20px;
   gap: 10px;
+  cursor: pointer;
 }
 .places__link {
   text-decoration: none;
   color: white;
   background: none;
+}
+
+.places__location-right {
+
 }
 
 .places__artists {
