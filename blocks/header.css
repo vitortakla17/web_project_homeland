@@ -43,6 +43,7 @@
 .header__image {
   width: 100%;
   max-height: 615px;
+  box-shadow: 5px 5px 10px 0px #00000040;
 }
 
 @media screen and (max-width: 1024px)  {
