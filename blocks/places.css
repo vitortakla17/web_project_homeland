@@ -192,7 +192,7 @@ line-height: 163%;
   .places__location {
     width: 100%;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 1fr;
     gap: 0;
     margin-top: 50px;
   }
