@@ -100,6 +100,9 @@
   line-height: 22px;
   margin-bottom: 48px;
 }
+.places__artist-info_no-margin {
+  margin: 0;
+}
 
 .places__paragraphs {
   display: grid;
