@@ -10,4 +10,4 @@ Homeland page: De patria para patria, tem o objetivo de mostrar a cidade natal d
 - Dimensionamento relativo
 - Consultas de media
 
-### GIT HUB PAGES: https://vitortakla17.github.io/web_project_homeland/
+### GIT HUBPAGES: https://vitortakla17.github.io/web_project_homeland/
