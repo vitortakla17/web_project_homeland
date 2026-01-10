@@ -79,7 +79,7 @@
 }
 
 .places__artists_first {
-  margin-top: 35%;
+  margin-top: 32%;
 }
 
 .places__artists_second {
@@ -177,7 +177,7 @@
 }
 
 
-@media screen and (max-width: 744px) {
+@media screen and (min-width: 545px) and (max-width: 744px) {
   .places {
     max-width: 530px;
     grid-template-columns: 530px;
