@@ -53,16 +53,11 @@
   gap: 10px;
   cursor: pointer;
   box-shadow: 5px 5px 10px 0px #00000040;
+  text-decoration: none;
 }
 
 .places__location-button:hover{
   opacity: 50%;
-}
-
-.places__link {
-  text-decoration: none;
-  color: white;
-  background: none;
 }
 
 .places__artists {
@@ -137,14 +132,13 @@
   }
 
   .places__location-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 355px;
     height: 48px;
-  }
-
-  .places__link {
-    display: flex;
-    width: 330px;
-    height: 22px;
+    font-weight: 600;
+    padding: 0;
   }
 
   .places__artists_first {
@@ -202,12 +196,11 @@
   .places__location-button {
     max-width: 260px;
     height: 48px;
-  }
-
-  .places__link {
-    max-width: 240px;
-    height: 22px;
-    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 14px;
   }
 
   .places__artist-info {
@@ -304,13 +297,13 @@
     width: 288px;
     height: 48px;
     margin: 0 auto;
-  }
-
-  .places__link {
     display: flex;
     font-size: 14px;
     font-weight: 600;
     line-height: 100%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
   }
 }
